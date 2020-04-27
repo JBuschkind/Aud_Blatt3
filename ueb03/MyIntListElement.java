@@ -30,7 +30,7 @@ public class MyIntListElement {
 	 */
 	public int compare(MyIntListElement oElement){
 
-    if(this.key == oElement.key){
+    if(this.key == oElement.key){		
       return 0;
     }else if(this.key < oElement.key){
       return -1;
